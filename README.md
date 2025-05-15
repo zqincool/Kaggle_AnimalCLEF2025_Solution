@@ -27,8 +27,11 @@ pip install -r requirements.txt
 
 ## Usage
 1. Ensure the dataset is correctly placed in the `images` folder
-2. Run the model:
+2. Copy metadata.csv to specified model folder
+3. Run the model:
 - Example:
 ```bash
+cd All_Species
+cd Swin_Transformer
 python swinTransformerClassifier.py
 ``` 
